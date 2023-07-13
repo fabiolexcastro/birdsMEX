@@ -9,7 +9,7 @@ rm(list = ls())
 options(scipen = 999, warn = -1)
 
 # Load data ---------------------------------------------------------------
-zone <- terra::vect('shp/base/buffer30.shp')
+zone <- terra::vect('shp/base/buffer_brachy.shp')
 
 
 
